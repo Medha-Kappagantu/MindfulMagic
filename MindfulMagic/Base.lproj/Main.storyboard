@@ -705,6 +705,9 @@
                                     <color key="baseForegroundColor" red="0.94901961089999998" green="0.94901961089999998" blue="0.94901961089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" red="0.67959318150000003" green="0.61165779890000005" blue="0.58770117550000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="rgw-Rc-fuz" kind="presentation" modalPresentationStyle="fullScreen" id="HpU-xM-MGJ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Lr3-EX-bzl"/>
@@ -762,7 +765,7 @@
         <!--View Controller Thing-->
         <scene sceneID="XLH-1v-Cy0">
             <objects>
-                <viewController id="Fl6-WJ-1Uk" customClass="ViewControllerThing" customModule="bingoPrac" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Fl6-WJ-1Uk" customClass="ViewControllerThing" customModule="MindfulMagic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ogJ-wd-3Ph">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -911,7 +914,7 @@
         <!--View Controller-->
         <scene sceneID="Lmx-Yc-f3C">
             <objects>
-                <viewController id="O3q-tj-byQ" customClass="ViewController" customModule="bingoPrac" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="O3q-tj-byQ" customClass="ViewController" customModule="MindfulMagic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oje-Xr-Qjf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1150,7 +1153,7 @@
         <!--View Controller Treat-->
         <scene sceneID="jZ9-Ao-36L">
             <objects>
-                <viewController id="Csn-Mw-qBd" customClass="ViewControllerTreat" customModule="bingoPrac" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Csn-Mw-qBd" customClass="ViewControllerTreat" customModule="MindfulMagic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yZ6-my-7as">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1559,7 +1562,7 @@
         <!--View Controller Music-->
         <scene sceneID="nyp-z1-vc4">
             <objects>
-                <viewController id="fhm-CB-sJK" customClass="ViewControllerMusic" customModule="bingoPrac" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fhm-CB-sJK" customClass="ViewControllerMusic" customModule="MindfulMagic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bXA-Ti-BJB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1612,7 +1615,7 @@
         <!--View Controller Friends-->
         <scene sceneID="7gK-By-Gen">
             <objects>
-                <viewController id="Y8I-RX-Pc8" customClass="ViewControllerFriends" customModule="bingoPrac" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Y8I-RX-Pc8" customClass="ViewControllerFriends" customModule="MindfulMagic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Oho-Pn-hB2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1657,7 +1660,7 @@
         <!--View Controller Meditate-->
         <scene sceneID="d7r-x4-UQM">
             <objects>
-                <viewController id="4YM-03-6YV" customClass="ViewControllerMeditate" customModule="bingoPrac" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4YM-03-6YV" customClass="ViewControllerMeditate" customModule="MindfulMagic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0Y5-Lj-SCv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1708,7 +1711,7 @@
         <!--View Controller Movie-->
         <scene sceneID="pme-Jp-vog">
             <objects>
-                <viewController id="9zl-Fa-9kp" customClass="ViewControllerMovie" customModule="bingoPrac" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9zl-Fa-9kp" customClass="ViewControllerMovie" customModule="MindfulMagic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n6V-a5-NKN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1757,12 +1760,103 @@
             </objects>
             <point key="canvasLocation" x="6293" y="-1142"/>
         </scene>
+        <!--Popit View Controller-->
+        <scene sceneID="J6q-hE-rox">
+            <objects>
+                <viewController id="rgw-Rc-fuz" customClass="PopitViewController" customModule="MindfulMagic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="95C-Su-EhL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KnE-NZ-U1g">
+                                <rect key="frame" x="224" y="410" width="97" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="whooshButton:" destination="rgw-Rc-fuz" eventType="touchUpInside" id="JGa-el-LeA"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="e84e52fe7e2b955e2130a3d999fbc2a3e39903b7_original" translatesAutoresizingMaskIntoConstraints="NO" id="COG-DD-E1o">
+                                <rect key="frame" x="20" y="329" width="374" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8dK-Hw-sM5">
+                                <rect key="frame" x="237" y="527" width="39" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="butontwo:" destination="rgw-Rc-fuz" eventType="touchUpInside" id="fXS-Nf-PsH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HeS-cC-l41">
+                                <rect key="frame" x="141" y="480" width="75" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="buttonthree:" destination="rgw-Rc-fuz" eventType="touchUpInside" id="cSZ-Zk-KUk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbe-zI-IhU">
+                                <rect key="frame" x="141" y="357" width="75" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="buttonfive:" destination="rgw-Rc-fuz" eventType="touchUpInside" id="Crw-oU-7Ym"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVh-Cz-3IQ">
+                                <rect key="frame" x="95" y="425" width="47" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="buttonfour:" destination="rgw-Rc-fuz" eventType="touchUpInside" id="LlZ-6N-qYu"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WkW-6P-pc8">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.90588235859999999" green="0.85882353779999998" blue="0.79607844350000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="1" green="0.64843628809999998" blue="0.91725526810000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="textShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem id="b7b-vT-syj">
+                                        <barButtonItem key="leftBarButtonItem" title="Meh Home" id="OUx-o9-gbR">
+                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pop It" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oyq-FK-Fo4">
+                                <rect key="frame" x="91" y="119" width="233" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.91764706370000004" green="0.85882353779999998" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" red="0.91764706370000004" green="0.85882353779999998" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="shadowColor" red="0.91764706370000004" green="0.85882353779999998" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="24c-B8-aXL"/>
+                        <color key="backgroundColor" red="0.8156862855" green="0.71764707569999997" blue="0.63921570780000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UV3-hm-jDg" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2875" y="-1822"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="dPR-tn-7tV"/>
-        <segue reference="wC1-hJ-EeO"/>
-        <segue reference="lQi-K6-RYc"/>
-        <segue reference="sU7-yE-vSa"/>
+        <segue reference="sj0-gy-tUm"/>
+        <segue reference="9nQ-Pn-sd3"/>
+        <segue reference="rPf-EG-vFE"/>
         <segue reference="tma-d3-ZRQ"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -1771,6 +1865,7 @@
         <image name="Meh" width="860" height="769"/>
         <image name="Sad" width="310" height="310"/>
         <image name="bingocard" width="280" height="279"/>
+        <image name="e84e52fe7e2b955e2130a3d999fbc2a3e39903b7_original" width="1001" height="1001"/>
         <image name="transparent " width="500" height="500"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

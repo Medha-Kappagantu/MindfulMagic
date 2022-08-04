@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		BD7A62C3289C5DBA00495CB2 /* PeaPopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A62C2289C5DBA00495CB2 /* PeaPopViewController.swift */; };
 		BD7A62C5289C6E3B00495CB2 /* pop-39222.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD7A62C4289C6E3B00495CB2 /* pop-39222.mp3 */; };
+		BDC25D75289C84C5009EF171 /* PopitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC25D74289C84C5009EF171 /* PopitViewController.swift */; };
+		BDC25D77289C8506009EF171 /* WHQS65J-comic-punch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BDC25D76289C8506009EF171 /* WHQS65J-comic-punch.mp3 */; };
+		BDC25D79289C8512009EF171 /* N2TFB4W-tentacle-slime-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BDC25D78289C8512009EF171 /* N2TFB4W-tentacle-slime-1.mp3 */; };
+		BDC25D7B289C8518009EF171 /* 6HPK4GY-short-typing-on-computer-keyboard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BDC25D7A289C8518009EF171 /* 6HPK4GY-short-typing-on-computer-keyboard.mp3 */; };
+		BDC25D7D289C8520009EF171 /* SNRQ6LV-pen-click-27000.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BDC25D7C289C8520009EF171 /* SNRQ6LV-pen-click-27000.mp3 */; };
+		BDC25D7F289C8526009EF171 /* W6P8DTV-pen-click-63140.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BDC25D7E289C8526009EF171 /* W6P8DTV-pen-click-63140.mp3 */; };
+		BDC25D81289C852F009EF171 /* VXWQWU4-ui-classic-click-noise-03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BDC25D80289C852F009EF171 /* VXWQWU4-ui-classic-click-noise-03.mp3 */; };
+		BDC25D83289C8536009EF171 /* 4ELQW8P-windy-whoosh-09.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BDC25D82289C8536009EF171 /* 4ELQW8P-windy-whoosh-09.mp3 */; };
+		BDC25D85289C853B009EF171 /* 2UZNE3X-rubber-plunger-pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BDC25D84289C853B009EF171 /* 2UZNE3X-rubber-plunger-pop.mp3 */; };
 		BDCA01D8289C3BC0001D87CA /* VentingJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA01D7289C3BC0001D87CA /* VentingJournal.swift */; };
 		BDCA01DA289C3C32001D87CA /* CompleteVentJournalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA01D9289C3C32001D87CA /* CompleteVentJournalsViewController.swift */; };
 		BDCA01DC289C3C7B001D87CA /* VentingJournalTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA01DB289C3C7B001D87CA /* VentingJournalTableTableViewController.swift */; };
@@ -48,6 +57,15 @@
 /* Begin PBXFileReference section */
 		BD7A62C2289C5DBA00495CB2 /* PeaPopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeaPopViewController.swift; sourceTree = "<group>"; };
 		BD7A62C4289C6E3B00495CB2 /* pop-39222.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "pop-39222.mp3"; sourceTree = "<group>"; };
+		BDC25D74289C84C5009EF171 /* PopitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopitViewController.swift; sourceTree = "<group>"; };
+		BDC25D76289C8506009EF171 /* WHQS65J-comic-punch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "WHQS65J-comic-punch.mp3"; sourceTree = "<group>"; };
+		BDC25D78289C8512009EF171 /* N2TFB4W-tentacle-slime-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "N2TFB4W-tentacle-slime-1.mp3"; sourceTree = "<group>"; };
+		BDC25D7A289C8518009EF171 /* 6HPK4GY-short-typing-on-computer-keyboard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "6HPK4GY-short-typing-on-computer-keyboard.mp3"; sourceTree = "<group>"; };
+		BDC25D7C289C8520009EF171 /* SNRQ6LV-pen-click-27000.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "SNRQ6LV-pen-click-27000.mp3"; sourceTree = "<group>"; };
+		BDC25D7E289C8526009EF171 /* W6P8DTV-pen-click-63140.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "W6P8DTV-pen-click-63140.mp3"; sourceTree = "<group>"; };
+		BDC25D80289C852F009EF171 /* VXWQWU4-ui-classic-click-noise-03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "VXWQWU4-ui-classic-click-noise-03.mp3"; sourceTree = "<group>"; };
+		BDC25D82289C8536009EF171 /* 4ELQW8P-windy-whoosh-09.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "4ELQW8P-windy-whoosh-09.mp3"; sourceTree = "<group>"; };
+		BDC25D84289C853B009EF171 /* 2UZNE3X-rubber-plunger-pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "2UZNE3X-rubber-plunger-pop.mp3"; sourceTree = "<group>"; };
 		BDCA01D7289C3BC0001D87CA /* VentingJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentingJournal.swift; sourceTree = "<group>"; };
 		BDCA01D9289C3C32001D87CA /* CompleteVentJournalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteVentJournalsViewController.swift; sourceTree = "<group>"; };
 		BDCA01DB289C3C7B001D87CA /* VentingJournalTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentingJournalTableTableViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +145,15 @@
 				BDCA01DD289C3CB0001D87CA /* AddVentJournalViewController_ViewController.swift */,
 				BDE07B302899C74000C7C6C6 /* ViewController.swift */,
 				BDE07B322899C74000C7C6C6 /* Main.storyboard */,
+				BDC25D74289C84C5009EF171 /* PopitViewController.swift */,
+				BDC25D78289C8512009EF171 /* N2TFB4W-tentacle-slime-1.mp3 */,
+				BDC25D7A289C8518009EF171 /* 6HPK4GY-short-typing-on-computer-keyboard.mp3 */,
+				BDC25D7E289C8526009EF171 /* W6P8DTV-pen-click-63140.mp3 */,
+				BDC25D7C289C8520009EF171 /* SNRQ6LV-pen-click-27000.mp3 */,
+				BDC25D84289C853B009EF171 /* 2UZNE3X-rubber-plunger-pop.mp3 */,
+				BDC25D82289C8536009EF171 /* 4ELQW8P-windy-whoosh-09.mp3 */,
+				BDC25D80289C852F009EF171 /* VXWQWU4-ui-classic-click-noise-03.mp3 */,
+				BDC25D76289C8506009EF171 /* WHQS65J-comic-punch.mp3 */,
 				BD7A62C4289C6E3B00495CB2 /* pop-39222.mp3 */,
 				BD7A62C2289C5DBA00495CB2 /* PeaPopViewController.swift */,
 				BDCA01DF289C4A41001D87CA /* ViewControllerTwo.swift */,
@@ -261,10 +288,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC25D77289C8506009EF171 /* WHQS65J-comic-punch.mp3 in Resources */,
+				BDC25D81289C852F009EF171 /* VXWQWU4-ui-classic-click-noise-03.mp3 in Resources */,
 				BDE07B3C2899C74200C7C6C6 /* LaunchScreen.storyboard in Resources */,
 				BD7A62C5289C6E3B00495CB2 /* pop-39222.mp3 in Resources */,
 				BDE07B392899C74200C7C6C6 /* Assets.xcassets in Resources */,
+				BDC25D7F289C8526009EF171 /* W6P8DTV-pen-click-63140.mp3 in Resources */,
 				BDE07B342899C74000C7C6C6 /* Main.storyboard in Resources */,
+				BDC25D83289C8536009EF171 /* 4ELQW8P-windy-whoosh-09.mp3 in Resources */,
+				BDC25D85289C853B009EF171 /* 2UZNE3X-rubber-plunger-pop.mp3 in Resources */,
+				BDC25D7B289C8518009EF171 /* 6HPK4GY-short-typing-on-computer-keyboard.mp3 in Resources */,
+				BDC25D7D289C8520009EF171 /* SNRQ6LV-pen-click-27000.mp3 in Resources */,
+				BDC25D79289C8512009EF171 /* N2TFB4W-tentacle-slime-1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +328,7 @@
 				BD7A62C3289C5DBA00495CB2 /* PeaPopViewController.swift in Sources */,
 				BDE07B312899C74000C7C6C6 /* ViewController.swift in Sources */,
 				BDE07B372899C74000C7C6C6 /* MindfulMagic.xcdatamodeld in Sources */,
+				BDC25D75289C84C5009EF171 /* PopitViewController.swift in Sources */,
 				BDCE8D8E289C391C00C5FE14 /* CoreDataFile.swift in Sources */,
 				BDE07B2D2899C74000C7C6C6 /* AppDelegate.swift in Sources */,
 				BDCA01D8289C3BC0001D87CA /* VentingJournal.swift in Sources */,
