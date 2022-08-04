@@ -130,6 +130,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title=" ">
                                     <backgroundConfiguration key="background" image="Good"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Fzj-RL-MbO" kind="presentation" modalPresentationStyle="fullScreen" id="DDD-wP-pWk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4xx-Ue-AOq">
                                 <rect key="frame" x="171" y="263" width="81" height="68"/>
@@ -622,6 +625,7 @@
                         <viewLayoutGuide key="safeArea" id="ZkO-LV-PBY"/>
                         <color key="backgroundColor" red="0.86274516580000005" green="0.76470589639999997" blue="0.70980393890000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="sud-Jl-ucd"/>
                     <connections>
                         <outlet property="peaOne" destination="9V2-dz-xuS" id="WGg-ND-5y1"/>
                         <outlet property="peaThree" destination="Ixq-Sx-PNT" id="kY0-hq-rYS"/>
@@ -632,10 +636,54 @@
             </objects>
             <point key="canvasLocation" x="730.43478260869574" y="-1178.5714285714284"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="sDf-ZV-BOh">
+            <objects>
+                <viewController id="Fzj-RL-MbO" customClass="ViewController" customModule="feedbackQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ehd-qJ-584">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What did you do today that made you happy? " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xwW-MB-RAf">
+                                <rect key="frame" x="36" y="-25" width="343" height="348"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jCm-Dd-FwD">
+                                <rect key="frame" x="36" y="235" width="343" height="447"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JHf-BK-71a">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem id="Cba-vC-nYf">
+                                        <barButtonItem key="leftBarButtonItem" title="Back to Emojis" id="yKv-zI-MXa">
+                                            <color key="tintColor" systemColor="labelColor"/>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ha8-Eo-rxF"/>
+                        <color key="backgroundColor" red="0.79215681550000006" green="0.81176471709999998" blue="0.78039217000000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="7Vr-8z-40j"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CXq-Z3-d5O" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-101" y="-1142"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="9nQ-Pn-sd3"/>
-        <segue reference="rPf-EG-vFE"/>
+        <segue reference="sU7-yE-vSa"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="209-2099899_3-peas-in-a-pod-two-peas-in" width="860" height="411"/>
@@ -645,6 +693,9 @@
         <image name="transparent " width="500" height="500"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
