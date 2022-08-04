@@ -97,7 +97,7 @@
                             </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4M0-YL-Z4T"/>
-                        <color key="backgroundColor" red="0.86274516580000005" green="0.79607844350000001" blue="0.62745100259999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.94117647410000005" green="0.90588235859999999" blue="0.85882353779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <connections>
@@ -121,7 +121,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="635-YT-DdE">
-                                <rect key="frame" x="82" y="263" width="81" height="67"/>
+                                <rect key="frame" x="58" y="404" width="81" height="67"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES" image="YES"/>
@@ -135,7 +135,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4xx-Ue-AOq">
-                                <rect key="frame" x="171" y="263" width="81" height="68"/>
+                                <rect key="frame" x="167" y="403" width="81" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES" image="YES"/>
@@ -149,7 +149,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hd3-mS-Shl">
-                                <rect key="frame" x="260" y="264" width="72" height="67"/>
+                                <rect key="frame" x="273" y="403" width="72" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES" image="YES"/>
@@ -162,14 +162,26 @@
                                     <segue destination="aCs-4l-EtO" kind="presentation" modalPresentationStyle="fullScreen" id="sU7-yE-vSa"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MindfulMagic" translatesAutoresizingMaskIntoConstraints="NO" id="wge-to-K5s">
+                                <rect key="frame" x="27" y="55" width="361" height="326"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick an emoji for how you feel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2vn-US-1Ie">
+                                <rect key="frame" x="53" y="603" width="308" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.86274516580000005" green="0.76470589639999997" blue="0.70980393890000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MBf-gd-8pd"/>
-                        <color key="backgroundColor" red="0.86274516580000005" green="0.79607844350000001" blue="0.62745100259999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.94117647410000005" green="0.90588235859999999" blue="0.85882353779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="geQ-Ek-ssF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-141" y="-395"/>
+            <point key="canvasLocation" x="-142.02898550724638" y="-395.08928571428572"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="nxh-hL-D6N">
@@ -225,6 +237,9 @@
                                     <navigationItem id="DDN-jV-mtw">
                                         <barButtonItem key="leftBarButtonItem" title="Emoji Home" id="NyX-5I-kjV">
                                             <color key="tintColor" systemColor="labelColor"/>
+                                            <connections>
+                                                <segue destination="AYU-Zv-MO4" kind="presentation" modalPresentationStyle="fullScreen" id="fEd-xV-ejh"/>
+                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -623,6 +638,9 @@
                                     <navigationItem id="p4p-no-Q9u">
                                         <barButtonItem key="leftBarButtonItem" title="Sad Home" id="vrB-8u-etm">
                                             <color key="tintColor" systemColor="labelColor"/>
+                                            <connections>
+                                                <segue destination="aCs-4l-EtO" kind="presentation" modalPresentationStyle="fullScreen" id="uxv-y9-Blm"/>
+                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -748,6 +766,9 @@
                                     <navigationItem id="Cba-vC-nYf">
                                         <barButtonItem key="leftBarButtonItem" title="Back to Emojis" id="yKv-zI-MXa">
                                             <color key="tintColor" systemColor="labelColor"/>
+                                            <connections>
+                                                <segue destination="AYU-Zv-MO4" kind="presentation" modalPresentationStyle="fullScreen" id="evN-G0-EI8"/>
+                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -1106,8 +1127,8 @@
                                     <segue destination="3bP-aN-ViS" kind="show" id="J60-y3-2Lq"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bingo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w0s-HN-qcs">
-                                <rect key="frame" x="134" y="147" width="148" height="68"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Magic Bingo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w0s-HN-qcs">
+                                <rect key="frame" x="94" y="147" width="228" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="37"/>
                                 <color key="textColor" red="0.89019608500000003" green="0.84313726430000002" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1829,6 +1850,9 @@
                                     <navigationItem id="b7b-vT-syj">
                                         <barButtonItem key="leftBarButtonItem" title="Meh Home" id="OUx-o9-gbR">
                                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <connections>
+                                                <segue destination="1nx-kg-KKc" kind="presentation" modalPresentationStyle="fullScreen" id="hh6-X1-HVu"/>
+                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -1855,14 +1879,15 @@
     <inferredMetricsTieBreakers>
         <segue reference="dPR-tn-7tV"/>
         <segue reference="sj0-gy-tUm"/>
-        <segue reference="9nQ-Pn-sd3"/>
-        <segue reference="rPf-EG-vFE"/>
+        <segue reference="lQi-K6-RYc"/>
+        <segue reference="sU7-yE-vSa"/>
         <segue reference="tma-d3-ZRQ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="209-2099899_3-peas-in-a-pod-two-peas-in" width="860" height="411"/>
         <image name="Good" width="860" height="705"/>
         <image name="Meh" width="860" height="769"/>
+        <image name="MindfulMagic" width="500" height="500"/>
         <image name="Sad" width="310" height="310"/>
         <image name="bingocard" width="280" height="279"/>
         <image name="e84e52fe7e2b955e2130a3d999fbc2a3e39903b7_original" width="1001" height="1001"/>
