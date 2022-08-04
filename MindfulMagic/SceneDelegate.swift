@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  MindfulMagic
+//  MindfulMagic1
 //
-//  Created by scholar on 8/2/22.
+//  Created by Scholar on 8/2/22.
 //
 
 import UIKit

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDCE8D8C289C38F000C5FE14 /* AnswersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCE8D8B289C38F000C5FE14 /* AnswersViewController.swift */; };
+		BDCE8D8E289C391C00C5FE14 /* CoreDataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCE8D8D289C391C00C5FE14 /* CoreDataFile.swift */; };
 		BDE07B2D2899C74000C7C6C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE07B2C2899C74000C7C6C6 /* AppDelegate.swift */; };
 		BDE07B2F2899C74000C7C6C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE07B2E2899C74000C7C6C6 /* SceneDelegate.swift */; };
 		BDE07B312899C74000C7C6C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE07B302899C74000C7C6C6 /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BDCE8D8B289C38F000C5FE14 /* AnswersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersViewController.swift; sourceTree = "<group>"; };
+		BDCE8D8D289C391C00C5FE14 /* CoreDataFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFile.swift; sourceTree = "<group>"; };
 		BDE07B292899C74000C7C6C6 /* MindfulMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindfulMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE07B2C2899C74000C7C6C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDE07B2E2899C74000C7C6C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				BDE07B302899C74000C7C6C6 /* ViewController.swift */,
 				BDE07B322899C74000C7C6C6 /* Main.storyboard */,
 				BDE07B382899C74200C7C6C6 /* Assets.xcassets */,
+				BDCE8D8B289C38F000C5FE14 /* AnswersViewController.swift */,
+				BDCE8D8D289C391C00C5FE14 /* CoreDataFile.swift */,
 				BDE07B3A2899C74200C7C6C6 /* LaunchScreen.storyboard */,
 				BDE07B3D2899C74200C7C6C6 /* Info.plist */,
 				BDE07B352899C74000C7C6C6 /* MindfulMagic.xcdatamodeld */,
@@ -263,8 +269,10 @@
 			files = (
 				BDE07B312899C74000C7C6C6 /* ViewController.swift in Sources */,
 				BDE07B372899C74000C7C6C6 /* MindfulMagic.xcdatamodeld in Sources */,
+				BDCE8D8E289C391C00C5FE14 /* CoreDataFile.swift in Sources */,
 				BDE07B2D2899C74000C7C6C6 /* AppDelegate.swift in Sources */,
 				BDE07B2F2899C74000C7C6C6 /* SceneDelegate.swift in Sources */,
+				BDCE8D8C289C38F000C5FE14 /* AnswersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
