@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDCA01D8289C3BC0001D87CA /* VentingJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA01D7289C3BC0001D87CA /* VentingJournal.swift */; };
+		BDCA01DA289C3C32001D87CA /* CompleteVentJournalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA01D9289C3C32001D87CA /* CompleteVentJournalsViewController.swift */; };
+		BDCA01DC289C3C7B001D87CA /* VentingJournalTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA01DB289C3C7B001D87CA /* VentingJournalTableTableViewController.swift */; };
+		BDCA01DE289C3CB0001D87CA /* AddVentJournalViewController_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA01DD289C3CB0001D87CA /* AddVentJournalViewController_ViewController.swift */; };
 		BDCE8D8C289C38F000C5FE14 /* AnswersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCE8D8B289C38F000C5FE14 /* AnswersViewController.swift */; };
 		BDCE8D8E289C391C00C5FE14 /* CoreDataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCE8D8D289C391C00C5FE14 /* CoreDataFile.swift */; };
 		BDE07B2D2899C74000C7C6C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE07B2C2899C74000C7C6C6 /* AppDelegate.swift */; };
@@ -39,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BDCA01D7289C3BC0001D87CA /* VentingJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentingJournal.swift; sourceTree = "<group>"; };
+		BDCA01D9289C3C32001D87CA /* CompleteVentJournalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteVentJournalsViewController.swift; sourceTree = "<group>"; };
+		BDCA01DB289C3C7B001D87CA /* VentingJournalTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentingJournalTableTableViewController.swift; sourceTree = "<group>"; };
+		BDCA01DD289C3CB0001D87CA /* AddVentJournalViewController_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVentJournalViewController_ViewController.swift; sourceTree = "<group>"; };
 		BDCE8D8B289C38F000C5FE14 /* AnswersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersViewController.swift; sourceTree = "<group>"; };
 		BDCE8D8D289C391C00C5FE14 /* CoreDataFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFile.swift; sourceTree = "<group>"; };
 		BDE07B292899C74000C7C6C6 /* MindfulMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindfulMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +115,10 @@
 			children = (
 				BDE07B2C2899C74000C7C6C6 /* AppDelegate.swift */,
 				BDE07B2E2899C74000C7C6C6 /* SceneDelegate.swift */,
+				BDCA01D7289C3BC0001D87CA /* VentingJournal.swift */,
+				BDCA01D9289C3C32001D87CA /* CompleteVentJournalsViewController.swift */,
+				BDCA01DB289C3C7B001D87CA /* VentingJournalTableTableViewController.swift */,
+				BDCA01DD289C3CB0001D87CA /* AddVentJournalViewController_ViewController.swift */,
 				BDE07B302899C74000C7C6C6 /* ViewController.swift */,
 				BDE07B322899C74000C7C6C6 /* Main.storyboard */,
 				BDE07B382899C74200C7C6C6 /* Assets.xcassets */,
@@ -267,11 +279,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDCA01DE289C3CB0001D87CA /* AddVentJournalViewController_ViewController.swift in Sources */,
 				BDE07B312899C74000C7C6C6 /* ViewController.swift in Sources */,
 				BDE07B372899C74000C7C6C6 /* MindfulMagic.xcdatamodeld in Sources */,
 				BDCE8D8E289C391C00C5FE14 /* CoreDataFile.swift in Sources */,
 				BDE07B2D2899C74000C7C6C6 /* AppDelegate.swift in Sources */,
+				BDCA01D8289C3BC0001D87CA /* VentingJournal.swift in Sources */,
 				BDE07B2F2899C74000C7C6C6 /* SceneDelegate.swift in Sources */,
+				BDCA01DA289C3C32001D87CA /* CompleteVentJournalsViewController.swift in Sources */,
+				BDCA01DC289C3C7B001D87CA /* VentingJournalTableTableViewController.swift in Sources */,
 				BDCE8D8C289C38F000C5FE14 /* AnswersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
