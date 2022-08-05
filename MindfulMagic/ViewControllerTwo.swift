@@ -29,7 +29,7 @@ class ViewControllerTwo: UIViewController {
             let breathOut: UIImage = UIImage(named: "exhale")!
             imageView.image = breathOut
         
-            DispatchQueue.main.asyncAfter(deadline: .now() + 10) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
                 if self.exitQueue == 4{
                     self.actionLabel.text = "You are done"
                     let imgDone: UIImage = UIImage(named: "done")!
@@ -58,7 +58,7 @@ class ViewControllerTwo: UIViewController {
             let breathIn: UIImage = UIImage(named: "inhale")!
             imageView.image = breathIn
             
-            DispatchQueue.main.asyncAfter(deadline: .now() + 10) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
                 self.buttonPressed = 2
                 self.actionLabel.text = "Tap Button!!"
                 let tap: UIImage = UIImage(named: "tap")!
