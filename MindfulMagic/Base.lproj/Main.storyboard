@@ -123,14 +123,6 @@
                                 <rect key="frame" x="20" y="418" width="128" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meh" translatesAutoresizingMaskIntoConstraints="NO" id="onr-s4-SIP">
-                                <rect key="frame" x="148" y="418" width="118" height="116"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sad" translatesAutoresizingMaskIntoConstraints="NO" id="wxu-q2-nhc">
-                                <rect key="frame" x="288" y="426" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OxN-JI-NAU">
                                 <rect key="frame" x="35" y="426" width="96" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -141,25 +133,29 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GKN-1G-VD9">
-                                <rect key="frame" x="159" y="426" width="96" height="100"/>
+                                <rect key="frame" x="159" y="426" width="107" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <backgroundConfiguration key="background" image="Meh"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="1nx-kg-KKc" kind="presentation" modalPresentationStyle="fullScreen" id="pQd-V3-UXO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdu-VO-uRe">
-                                <rect key="frame" x="290" y="426" width="96" height="100"/>
+                                <rect key="frame" x="292" y="426" width="96" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="Sad"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="aCs-4l-EtO" kind="presentation" modalPresentationStyle="fullScreen" id="MrV-hq-xM7"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Happy           Meh                Sad" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cJf-5R-xS8">
-                                <rect key="frame" x="-11" y="542" width="437" height="45"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Happy           Meh              Sad" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cJf-5R-xS8">
+                                <rect key="frame" x="0.0" y="542" width="414" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <nil key="textColor"/>
@@ -211,7 +207,7 @@
                                 <rect key="frame" x="106" y="581" width="203" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Pea Pop">
+                                <buttonConfiguration key="configuration" style="filled" title="Pea Popper">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
                                     <color key="baseForegroundColor" red="0.94901961089999998" green="0.94901961089999998" blue="0.94901961089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" red="0.67959318150000003" green="0.61165779890000005" blue="0.58770117550000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1899,24 +1895,23 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="wex-3U-2Ev"/>
         <segue reference="dWI-EZ-V03"/>
         <segue reference="pQd-V3-UXO"/>
-        <segue reference="9nQ-Pn-sd3"/>
-        <segue reference="rPf-EG-vFE"/>
-        <segue reference="tma-d3-ZRQ"/>
+        <segue reference="lQi-K6-RYc"/>
+        <segue reference="MrV-hq-xM7"/>
+        <segue reference="fEd-xV-ejh"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="Meh" width="528" height="472"/>
         <image name="MindfulMagic" width="500" height="500"/>
+        <image name="Sad" width="310" height="310"/>
         <image name="bingocard" width="280" height="279"/>
         <image name="breathinstruct" width="577" height="433"/>
         <image name="bunnysleep" width="550" height="360"/>
         <image name="happy" width="552" height="452"/>
-        <image name="meh" width="528" height="472"/>
         <image name="peainpod" width="723" height="345"/>
         <image name="pigsleep" width="487" height="513"/>
         <image name="popit" width="500" height="500"/>
-        <image name="sad" width="310" height="310"/>
         <image name="transparent " width="500" height="500"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
