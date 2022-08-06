@@ -33,5 +33,5 @@ MindfulMagic is an app that is ready to assist you in any mood. Whether you are 
 - Medha Kappagantu
 - Franchesca Mixquitl
 - Shivali Sharma
-- Jaslyn mMrtinez
+- Jaslyn Martinez
  
