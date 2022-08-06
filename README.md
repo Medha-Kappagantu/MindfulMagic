@@ -15,7 +15,7 @@ MindfulMagic is an app that is ready to assist you in any mood. Whether you are 
 - Magic Bingo: Suggested activities that can help make your day better
 - Pop It: Sounds and pop up images that can help you through a stressful time 
 - Reflection Form: A form opened upon opening the app, to help you assess how you are feeling. 
-- What makes you Happy?: If you are alreayd happy give us feedback on what makes you happy, so that we can use this data to improve our app
+- What makes you Happy?: If you are already happy give us feedback on what makes you happy, so that we can use this data to improve our app
 
 # Future Iterations:
 
