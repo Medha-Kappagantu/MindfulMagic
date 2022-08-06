@@ -15,7 +15,7 @@ MindfulMagic is an app that is ready to assist you in any mood. Whether you are 
 - Reflection Form: A form opened upon opening the app, to help you assess how you are feeling. 
 - What makes you Happy?: If you are alreayd happy give us feedback on what makes you happy, so that we can use this data to improve our app
 
-# Future Iterations
+# Future Iterations:
 
 # Second Iteration
 - Personalization: We will add more aspects of app personalization and accessibility.
@@ -28,7 +28,7 @@ MindfulMagic is an app that is ready to assist you in any mood. Whether you are 
 # Let the stress evaporate like magic...
 
 
-# Developers
+# Developers:
 
 - Medha Kappagantu
 - Franchesca Mixquitl
