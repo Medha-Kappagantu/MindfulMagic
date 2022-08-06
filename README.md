@@ -6,6 +6,8 @@ This is where MindfulMagic comes into play.
 
 MindfulMagic is an app that is ready to assist you in any mood. Whether you are sad, happy, or just in a mediocre mood you can hop onto your app and have access to a wide array of tools.
 
+# Let the stress evaporate like magic...
+
 # Functionalities
 
 - Venting Journal: Space where you can write how you feel and you’re able go back to
@@ -24,8 +26,6 @@ MindfulMagic is an app that is ready to assist you in any mood. Whether you are 
 # Third Iteration
 - Chat Bot: An AI ChatBot that would assist people when they need someone to talk to.
 - Breathing Control: An integration with Apple watches where we can pull current heartbeat data.
-
-# Let the stress evaporate like magic...
 
 
 # Developers:
